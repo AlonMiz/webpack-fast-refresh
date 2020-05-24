@@ -155,6 +155,15 @@ Make sure you have [HMR](https://webpack.js.org/concepts/hot-module-replacement/
 ```bash
 webpack-dev-server --hot --mode development
 ```
+or
+```javascript
+  ...
+  devServe: {
+    hot: true,
+    ...
+  }
+```
+
 
 ### Using [webpack-hot-middleware](https://github.com/webpack-contrib/webpack-hot-middleware):
 
